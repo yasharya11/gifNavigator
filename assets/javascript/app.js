@@ -43,8 +43,8 @@ $(document).ready(function () {
 
                         var state = $(this).attr("data-state");
 
-                        animalImage.attr("src", results[i].images.fixed_height_still.url);
-                        animalImage.attr("data-state", "still");
+                        animalImage.attr("src", results[i].images.fixed_height.url);
+                        animalImage.attr("data-state", "animate");
 
                         gifDiv.append(p);
                         gifDiv.append(animalImage);
